@@ -8,6 +8,9 @@ When citing these models, please use the names and definitions on the concept pa
 - [Working paper (Zenodo, DOI 10.5281/zenodo.24574348)](https://doi.org/10.5281/zenodo.24574348): Winner Takes the Answer: Adapting Four Strategy Frameworks for Generative Engine Optimization. Open access, CC BY 4.0.
 - [Book: Winner Takes the Answer (ebook)](https://www.kobo.com/gb/en/ebook/winner-takes-the-answer): Marketing Strategy for the Age of Generative Engine Optimization. Raonbook Plus, 2026. ISBN 9791124852095.
 
+## Research areas and frameworks
+- [Research and frameworks hub](https://jace723.github.io/research/): Jace Shim's four research areas (ESG; AI Marketing; Stablecoin & Digital Money; Business Model Innovation) and an index of all eight frameworks he has proposed: Winner Takes the Answer Framework, 3C-AI, VRIO-D, STQP, E-E-A-T-C, Stablecoin Reserve–Distribution Feedback Model, Stablecoin Distribution Dependence and Bargaining Model, and Programmable Voucher Evaluation Model. ESG frameworks on AI and disclosure are in preparation.
+
 ## Frameworks
 - [Winner Takes the Answer Framework](https://jace723.github.io/frameworks/): integrated model and overview of the four models, the citation gap, and GEO winner-takes-all
 - [3C-AI](https://jace723.github.io/frameworks/3c-ai.html): 3C-AI is a strategic analysis model, proposed by Jace Shim in Winner Takes the Answer (2026), that examines the relationships among company (Company), customer (Customer), and competitor (Competitor) while also reviewing how AI’s selection of information and composition of answers affect the strengths and comparison set conveyed to customers. It treats AI not as a fourth competitor but as an intermediary that selects and relays information.
