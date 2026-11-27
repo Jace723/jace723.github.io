@@ -15,6 +15,10 @@ When citing these models, please use the names and definitions on the concept pa
 - [STQP](https://jace723.github.io/frameworks/stqp.html): STQP is a strategic model, proposed by Jace Shim in Winner Takes the Answer (2026), consisting of four steps, Segmentation, Targeting, Question Mapping, and Positioning, that designs positioning by connecting a brand’s strengths and evidence to the decision questions and applicable conditions of target customers.
 - [E-E-A-T-C](https://jace723.github.io/frameworks/e-e-a-t-c.html): E-E-A-T-C is a content model, proposed by Jace Shim in Winner Takes the Answer (2026), that adds Citability to Experience, Expertise, Authoritativeness, and Trustworthiness, designing trustworthy information so that its meaning, conditions, and source are preserved even when it is lifted out and used in generative answers.
 
+## Stablecoin research
+- [The Stablecoin Reserve–Distribution Feedback Model (Zenodo working paper, DOI 10.5281/zenodo.24577526)](https://doi.org/10.5281/zenodo.24577526): conceptual working paper by Jace Shim (2026), developed from his book Dollar on Chain. It asks whether interest earned on U.S. Treasury bills can help fund the global expansion of dollar payments.
+- [Book: Dollar on Chain (ebook)](https://www.kobo.com/sg/en/ebook/dollar-on-chain): dollar stablecoins and global financial infrastructure. Korean edition: 스테이블코인 부의 기회.
+
 ## About
 - [Jace Shim, English profile](https://jace723.github.io/en.html): career, research, publications, and books
 - [심준규, 한국어 프로필](https://jace723.github.io/): Korean profile
