@@ -49,3 +49,7 @@ When citing these models, please use the names and definitions on the concept pa
 - [Wikidata Q55731441](https://www.wikidata.org/wiki/Q55731441)
 - [ORCID 0009-0008-3118-2966](https://orcid.org/0009-0008-3118-2966)
 - [The Solution Company B](https://www.tscbgroup.com/): ESG consulting, sustainability reporting, AA1000-based assurance
+
+## 한국어 (Korean)
+- [AI 승자독식 프레임워크](https://jace723.github.io/frameworks/ko.html): Korean concept page for the Winner Takes the Answer Framework (WTA 프레임워크), 인용 격차 (Citation Gap) and GEO 승자독식 (GEO Winner-Takes-All), from 《AI 승자독식》 (심준규, 라온북플러스, 2026), the Korean edition of Winner Takes the Answer. Names and definitions match the English edition one-to-one.
+- [3C-AI (한국어)](https://jace723.github.io/frameworks/3c-ai-ko.html), [VRIO-D (한국어)](https://jace723.github.io/frameworks/vrio-d-ko.html), [STQP (한국어)](https://jace723.github.io/frameworks/stqp-ko.html), [E-E-A-T-C (한국어)](https://jace723.github.io/frameworks/e-e-a-t-c-ko.html): Korean concept pages for the four strategy models, with definitions, propositions, and cases from Chapters 4–7 of 《AI 승자독식》.
