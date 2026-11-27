@@ -1,13 +1,13 @@
 <!doctype html>
 <html lang="ko">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="심준규(Jace Shim)의 개인 홈페이지. AI 마케팅, 검색과 답변의 변화, 비즈니스 모델 혁신에 관한 연구 주제와 저서를 소개합니다.">
-<meta property="og:type" content="website">
-<meta property="og:title" content="심준규 Jace Shim | 연구와 저서">
-<meta property="og:description" content="AI 마케팅과 비즈니스 모델 혁신에 관한 연구 주제와 저서를 소개합니다.">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
 <title>심준규 Jace Shim | 연구와 저서</title>
+<meta name="description" content="더솔루션컴퍼니비 대표. ESG와 공급사슬, AI 마케팅과 비즈니스 전략을 연구합니다.">
+<link rel="canonical" href="https://jace723.github.io/">
+<link rel="alternate" hreflang="ko" href="https://jace723.github.io/">
+<link rel="alternate" hreflang="en" href="https://jace723.github.io/en.html">
+<link rel="alternate" hreflang="x-default" href="https://jace723.github.io/">
+<meta property="og:image" content="https://jace723.github.io/jace-shim.jpg">
 <style>
 :root { color-scheme: light; --paper:#f7f4ec; --ink:#192c26; --muted:#4c5b52; --line:#d7d9cb; --green:#245746; --dark:#173a31; }
 * { box-sizing:border-box; }
@@ -50,49 +50,48 @@ footer .wrap { display:flex; justify-content:space-between; gap:1rem; }
 }
 @media (max-width:430px) { .books { grid-template-columns:1fr; } }
 @media (prefers-reduced-motion:reduce) { html { scroll-behavior:auto; } }
-</style>
-</head>
-<body>
-<header id="top">
-<div class="wrap bar">
-<a class="brand" href="./">Jace Shim</a>
-<nav aria-label="주 메뉴">
-<a href="#about">소개</a><a href="#research">연구 주제</a><a href="#books">저서</a>
-</nav>
-</div>
-</header>
-<main class="wrap">
-<div class="hero">
-<div>
-<h1>Jace Shim<span class="korean">심준규</span></h1>
-<p>AI가 사람들이 정보를 찾고 선택하는 방식을 어떻게 바꾸는지, 그 변화가 마케팅과 비즈니스 모델에 어떤 의미를 갖는지 살펴봅니다.</p>
-<a class="button" href="#books">저서 보기 <span aria-hidden="true">↓</span></a>
-</div>
-<div class="identity" aria-hidden="true"><span>JS</span></div>
-</div>
-<section class="section-grid" id="about">
-<h2>소개</h2>
-<div><p>심준규(Jace Shim)는 《AI 마케팅 패러다임》과 《비즈니스 모델 혁신》의 저자입니다. 검색과 AI 답변의 변화, 기업의 가치 창출 방식을 주제로 글을 씁니다.</p></div>
-</section>
-<section class="section-grid" id="research">
-<h2>연구 주제</h2>
-<ul class="items">
-<li><h3>AI 마케팅</h3><p>검색에서 생성형 AI와 에이전트로 이어지는 변화가 고객의 탐색과 구매 결정에 미치는 영향을 살펴봅니다.</p></li>
-<li><h3>답변 엔진과 콘텐츠 발견</h3><p>답변 엔진 최적화(AEO)와 생성형 엔진 최적화(GEO)를 중심으로 AI가 출처를 선택하고 인용하는 방식에 주목합니다.</p></li>
-<li><h3>비즈니스 모델 혁신</h3><p>기술과 고객 행동의 변화에 맞춰 기업이 가치를 만들고 전달하며 수익을 얻는 방식을 탐구합니다.</p></li>
-</ul>
-</section>
-<section class="section-grid" id="books">
-<h2>저서</h2>
-<div>
-<div class="books">
-<article><h3>AI 마케팅 패러다임</h3><p>검색에서 AI 에이전트로 이어지는 환경 변화와 마케팅 전략을 다룹니다.</p></article>
-<article><h3>비즈니스 모델 혁신</h3><p>AI 시대에 기업이 성장 전략과 사업 구조를 새롭게 설계하는 방법을 다룹니다.</p></article>
-</div>
-<p><a href="https://raonbook.vercel.app/">라온플러스에서 저서 보기 <span aria-hidden="true">↗</span></a></p>
-</div>
-</section>
-</main>
-<footer><div class="wrap"><span>심준규 · Jace Shim</span><a href="#top">맨 위로</a></div></footer>
-</body>
-</html>
+
+.bar { flex-wrap:wrap; padding-block:.7rem; }
+.portrait { margin:0; width:min(100%,330px); justify-self:center; }
+.portrait img { display:block; width:100%; height:auto; border:1px solid var(--line); }
+.lang { padding-left:.7rem; border-left:1px solid var(--line); font-weight:700; }
+.items a { color:var(--green); }
+@media(max-width:700px) { .portrait { width:min(100%,250px); } }
+
+:root{--ink:#172d3d;--dark:#11283b;--paper:#f6f4ee;--line:#d8dfdf;--muted:#4c5d66;--teal:#16594f;--gold:#edcc8a}
+body{background:var(--paper)}
+header{background:#fff;border-color:var(--line)}
+.brand{font-size:1.45rem}
+nav{flex-wrap:wrap;gap:clamp(.65rem,2.2vw,1.6rem)}
+main.wrap{width:100%}
+.hero{padding:clamp(3rem,8vw,7rem) max(1.5rem,calc((100% - 1100px)/2));background:radial-gradient(ellipse at 85% 25%,#245361 0%,transparent 52%),var(--dark);color:#fff;grid-template-columns:minmax(0,1.35fr) minmax(0,.9fr)}
+.hero h1{font-size:clamp(4rem,8vw,8.4rem);letter-spacing:-.065em}
+.hero .korean{color:var(--gold)}
+.hero p{color:#e0e9ee}
+.hero .eyebrow{color:var(--gold);font-size:.88rem;font-weight:700;letter-spacing:.07em;margin:0 0 1.5rem}
+.hero .button{background:var(--gold);color:var(--dark);font-weight:700;border-radius:4px}
+.hero .button:hover{background:#ffe1a5}
+.portrait{width:min(100%,340px);padding:10px;border:1px solid #bbd0d478;border-radius:9px;box-shadow:0 22px 45px #06172160}
+.portrait img{border:0;border-radius:4px;aspect-ratio:4/5;object-fit:cover;object-position:center top}
+section.section-grid{padding:clamp(3rem,6vw,5.2rem) max(1.5rem,calc((100% - 1100px)/2));grid-template-columns:1fr;gap:1.7rem}
+section h2{font-size:clamp(2rem,4.4vw,3.25rem)}
+#research,#books{background:#e9efee}
+#research .items,#books .items{grid-template-columns:repeat(3,minmax(0,1fr));gap:1rem}
+#books .items{grid-template-columns:repeat(2,minmax(0,1fr))}
+#research .items li,#books .items li{padding:1.5rem;border:1px solid var(--line);border-top:3px solid var(--teal);background:#fff;border-radius:6px}
+#about .items{grid-template-columns:repeat(2,minmax(0,1fr));gap:1rem}
+#about .items li{padding:1.25rem;border:1px solid var(--line);background:#fff;border-radius:6px}
+#publications .items li{padding:1.15rem 0;border-top:1px solid var(--line)}
+#publications .items li:first-child{padding:1.4rem;background:#fff;border:1px solid var(--line);border-left:4px solid var(--teal);border-radius:6px}
+footer{background:var(--dark);color:#e0e9ee}
+@media(max-width:700px){.hero{grid-template-columns:1fr}.portrait{justify-self:start;width:min(100%,240px)} #research .items,#about .items,#books .items{grid-template-columns:1fr} html{scroll-padding-top:7rem}}
+</style></head>
+<body><header><div class="wrap bar"><a class="brand" href="./">Jace Shim</a>
+<nav aria-label="주 메뉴"><a href="#about">소개</a><a href="#research">연구</a><a href="#publications">논문</a><a href="#books">저서</a>
+<a class="lang" href="./en.html" lang="en" hreflang="en">English</a></nav>
+</div></header><main class="wrap" id="top">
+<div class="hero"><div><p class="eyebrow">인하대학교 경영학과 겸임교수</p><h1>Jace Shim<span class="korean" lang="ko">심준규</span></h1><p>더솔루션컴퍼니비 대표. ESG와 공급사슬, AI 마케팅과 비즈니스 전략을 연구합니다.</p>
+<a class="button" href="#publications">논문 보기 ↓</a></div>
+<figure class="portrait"><img src="./jace-shim.jpg" width="750" height="1000" alt="심준규 프로필 사진"></figure></div>
+<section class="section-grid" id="about"><h2>소개</h2><ul class="items"><li><h3>인하대학교 경영학과 겸임교수</h3><p>경영학과 · 2025년부터</p></li><li><h3><a href="https://www.tscbgroup.com/">더솔루션컴퍼니비 대표</a></h3><p>ESG 경영 자문과 지속가능경영보고서 검증</p></li><li><h3>학력</h3><p>인하대학교 경영학박사 · 리버풀대학교 MBA · 가천대학교 경제학사</p></li><li><h3>기업 실무 경력</h3><p>이랜드, CJ IMC, 코오롱인더스트리 FnC에서 유통 및 마케팅 업무를 맡았습니다.</p></li></ul></section><section class="section-grid" id="research"><h2>연구</h2><ul class="items"><li><h3>ESG와 공급사슬</h3><p>구매자 관점의 ESG 활동이 기업 간 신뢰와 협력, 공급사슬 성과에 어떻게 연결되는지 살펴봅니다.</p></li><li><h3><a href="https://www.tscbgroup.com/single-post/geo-strategy-models-jace-shim">AI 마케팅과 GEO</a></h3><p>《AI 승자독식》에서 3C-AI, VRIO-D, STQP, E-E-A-T-C를 제안했습니다. AI가 매개하는 경쟁, 발견 가능성, 고객의 질문, 인용 가능성을 다룹니다.</p></li><li><h3>비즈니스 모델 혁신</h3><p>기술과 고객 행동의 변화에 맞춰 기업이 가치를 창출하고 전달하는 방식을 연구합니다.</p></li></ul></section><section class="section-grid" id="publications"><h2>논문</h2><ul class="items"><li><h3><a href="https://doi.org/10.16980/jitc.21.6.202512.279">구매자 관점에서 본 ESG활동이 사회적 자본을 매개로 공급사슬 성과에 미치는 영향: 중소 제조기업을 중심으로</a></h3><p>심준규 · 박승욱 · 무역연구 21(6), 279–294 (2025)</p></li><li><h3><a href="https://dl.nanet.go.kr/search/searchInnerList.do?queryText=%EC%8B%AC%EC%A4%80%EA%B7%9C%3AAUTHOR_WS%5EDP_AUTHOR_WS%3AAND%40+TP2026011584%3AAUTHOR_ID%3AAND&amp;searchQuery=%EC%8B%AC%EC%A4%80%EA%B7%9C">구매자가 인식한 ESG 경영이 사회적 자본과 공급사슬 성과에 미치는 영향</a></h3><p>인하대학교 박사학위논문</p></li><li><h3><a href="https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003014964">The Effects of Vietnamese Consumers’ Perceived Quality Shoes on Repurchase Intention: A Case of MLB Product</a></h3><p>무역연구 19(5), 1–21 (2023)</p></li><li><h3>꽌시에 기초한 기업 네트워크가 정보공유와 기업성과에 미치는 영향에 관한 연구</h3><p>중국연구 (2023)</p></li><li><h3><a href="https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11437202">성과평가 시스템이 구성원의 지식 창출 및 업무성과에 미치는 영향: 공공기관을 대상으로</a></h3><p>대한경영학회 (2023)</p></li><li><h3>What decision making choices do online shoppers make, when deciding to purchase goods from the Internet?</h3><p>리버풀대학교 MBA 학위논문 (2014)</p></li></ul></section><section class="section-grid" id="books"><h2>저서</h2><div><ul class="items"><li><h3>AI 승자독식</h3><p>생성형 AI 시대의 경쟁과 GEO 전략 모형</p></li><li><h3>AI 마케팅 패러다임</h3><p>검색에서 AI 에이전트로 이어지는 마케팅 환경의 변화</p></li><li><h3>비즈니스 모델 혁신</h3><p>AI 시대의 비즈니스 모델과 성장 전략</p></li><li><h3>실천으로 완성하는 ESG전략</h3><p>기업의 ESG 전략과 실행</p></li></ul><p><a href="https://raonbook.vercel.app/">라온플러스</a></p></div></section>
+</main><footer><div class="wrap"><span>심준규 · Jace Shim</span><a href="#top">맨 위로</a></div></footer></body></html>
